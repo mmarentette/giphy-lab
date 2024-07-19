@@ -36,7 +36,7 @@ export default function App() {
 
   return (
     <>
-      <h1>Giphy</h1>
+      <h1>Random Gif Generator</h1>
       <SearchBar setSearchGifTerm={setSearchGifTerm} />
       {isLoading ? <h1>Hold on... gif is loading!</h1> : <GifDetails gif={gif}/>}
     </>
