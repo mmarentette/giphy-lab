@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import SearchBar from './components/SearchBar/SearchBar';
 import GifDetails from './components/GifDetails/GifDetails';
 import './App.css'
